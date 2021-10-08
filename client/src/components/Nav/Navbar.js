@@ -17,19 +17,19 @@ function NavBar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link to='/'><div className="nav-link">Home</div></Link>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item dropdown">
                             <Link to='/books'><div className="nav-link">Books</div></Link>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link to='/movies'><div className="nav-link">Movies</div></Link>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link to='/characters'><div className="nav-link">Characters</div></Link>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item">
                             <Link to='/contact'><div className="nav-link">Contact</div></Link>
                         </li>
                     </ul>
