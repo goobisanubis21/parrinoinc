@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function BooksComp() {
     return (
         <div>
-            <div className='category-links'>
-                <p><Link to='/books/rrated'>R Rated Book</Link></p>
+            <div>
+                <p>books</p>
             </div>
         </div>
     )

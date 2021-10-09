@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './homeComp.css';
 
 function HomeComp() {
     return (
         <div>
-            home
+            <div className='home-title'>
+                <h1>Parrino Studios</h1>
+            </div>
         </div>
     )
 }
